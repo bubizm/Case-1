@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <div class="top">
+                <!-- блок меню и заголовка contact us с текстом -->
+                <div class="top__content-contacts">
+
+                    <ul class="menu menu-contacts">
+                        <li><a href="index.html"><img src="img/logo.svg" alt=""></a></li>
+                        <li><a href="contacts.html"><img src="img/contacts.svg" alt=""></a></li>
+                    </ul>
+
+                    <!-- блок заголовка contact us с текстом -->
+                    <div class="contact-us">
+                        <h2 class="heading2 head-contact">Contact us</h2>
+                        <p class="paragraph head-text-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Magni, corrupti?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- блок от начала картинки и до конца форм -->
+    <div class="photo-and-form container">
+        <!-- блок с картинкой и данными, включая ссылки -->
+        <div class="data">
+            <img class="img-in-contact" src="img/contact-us.jpg" alt="photo">
+            <h4 class="heading4 padding-address">ADDRESS</h4>
+            <p class="paragraph text-address">Lorem ipsum dolor sit amet.</p>
+            <h4 class="heading4 text-phone">PHONE</h4>
+            <div class="list">
+                <ul class="phone">
+
+
+                    <li class="text-address"><img class="img-phone" src="img/phone.svg" alt="phone">8 912 345 67 89</li>
+                </ul>
+                <ul class="phone phone2">
+
+                    <li class="text-address"><img class="img-phone" src="img/phone.svg" alt="phone">8 909 876 54 32</li>
+                </ul>
+            </div>
+
+            <h4 class="heading4 text-phone">ONLINE SERVICE</h4>
+            <div class="list">
+                <ul class="phone">
+                    <li><a class="text-address service" href="../index.html"><img class="img-phone" src="img/world.svg"
+                                alt="world">Наш сайт</a></li>
+                </ul>
+                <ul class="phone phone2">
+                    <li><a class="text-address service" href="mailto:somebody@else.ru"><img class="img-phone"
+                                src="img/mail.svg" alt="mail">Наша почта</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- блок формы -->
+        <form class="forms" action="#">
+            <h4 class="heading4 paragraph-send">SEND MESSAGE</h4>
+            <div class="FIO">
+                <p class="paragraph name-form">Full Name</p>
+                <input class="text" name="name" id="FIO" placeholder="Your Name">
+            </div>
+            <div class="email">
+                <p class="paragraph name-form">Email</p>
+                <input class="text" type="email" name="email" id="email" placeholder="Your Email">
+            </div>
+            <div class="message">
+                <p class="paragraph name-form">Message</p>
+                <textarea class="text text-message" name="message" id="message" placeholder="Your Message"></textarea>
+            </div>
+            <button class="send" type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <div class="container map">
+        <!-- онлайн карты -->
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4e85c7e0edea3eb37dc30a79909e1a4eeb5bbcb1e4069d8f664935022e6d8bf4&amp;width=100%&amp;height=600&amp;lang=ru_RU&amp;scroll=true">
+            </script>
+    </div>
+
+
+    <!-- футер -->
+    <!-- второй красный блок -->
+    <div class="footer">
+        <div class="container">
+            <!-- бледного цвета блок -->
+            <div class="top_in_block_bottom">
+                <!-- второй розовый блок -->
+                <div class="block-with-content">
+
+                    <h3 class="heading3 work">Intersted to work
+                        with our team?</h3>
+
+
+
+                    <p class="paragraph text-in-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+
+                <div class="talk-in-footer">
+                    <a href="#" class="talk">Let's Talk</a>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- второй блок бледного цвета -->
+            <div class="bottom">
+                <ul class="bottom-info">
+                    <li class="footer__list">Наши контакты для связи</li>
+                    <li class="footer__list">8 912 345 67 89</li>
+                    <li class="footer__list">somebody@else.ru</li>
+                </ul>
+                <!-- блок серого цвета -->
+                <div class="rights">
+
+                    <p class="paragraph-reserved">2021 All rights reserved.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
